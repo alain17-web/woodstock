@@ -1,16 +1,21 @@
+import React, { Component} from 'react'
+import './App.css'
+import './components/Navbar'
+import Navbar from './components/Navbar'
+import Top from './components/Top'
 
-import './App.css';
+class App extends Component {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        t
-        
-      </header>
-    </div>
-  );
+
+
+  render () {
+    
+    return (
+      <div className="container">
+        <Navbar/>
+        <Top/>
+      </div>
+    )
+  }
 }
-
 export default App;
